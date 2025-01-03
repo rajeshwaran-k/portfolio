@@ -8,7 +8,7 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
+      title: "Turning Ideas into real life products is my calling",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
@@ -49,7 +49,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
+      title: "Currently building a collaborative quiz app",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,35 +72,39 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      title: "Custom CRM platform",
+      des: "Custom CRM platform built from scratch",
+      img: "/skl.png",
+      iconLists: [ "/next.svg",  "/nestJs.svg", "/ts.svg", "/pg.svg", "/aws.svg"],
+      link: "https://cybermindworks.com/portfolio/crm",
+      linkName: "More info"
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      title: "LMS platform",
+      des: "Learning Management System with interactive course delivery, real-time assessments, and personalized learning paths.",
+      img: "/grow.png",
+      iconLists: [ "/next.svg",  "/nestJs.svg", "/ts.svg", "/pg.svg", "/aws.svg"],
+      link: "https://grow.skill-lync.com/",
+      linkName: "Check Live Site"
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      title: "Live Demo Platform",
+      des: "A platform built to schedule instant live demo with customers",
+      img: "/matchMaking.png",
+      iconLists: [ "/ts.svg", "/pg.svg", "/aws.svg", "/next.svg",  "/nestJs.svg"],
+      link: "https://cybermindworks.com/portfolio/demo-portal",
+      linkName: "More info"
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
+      title: " Platform",
       des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      img: "/blackbuck2.png",
+      iconLists: ["/next.svg",  "/nestJs.svg",  "/ts.svg", "/pg.svg", "/aws.svg"],
+      link: "https://taptap.blackbucks.me/",
+      linkName: "Check Live Site"
     },
   ];
   
