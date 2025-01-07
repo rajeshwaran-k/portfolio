@@ -1838,6 +1838,10 @@ button:active {
   padding: 0.5rem;
 }
 
+.p-10 {
+  padding: 2.5rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1876,6 +1880,16 @@ button:active {
 .py-0\.5 {
   padding-top: 0.125rem;
   padding-bottom: 0.125rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .pb-20 {
@@ -2441,6 +2455,10 @@ button:active {
     width: 15rem;
   }
 
+  .md\:min-w-\[70vw\] {
+    min-width: 70vw;
+  }
+
   .md\:max-w-2xl {
     max-width: 42rem;
   }
@@ -2542,6 +2560,11 @@ button:active {
 
   .lg\:w-10 {
     width: 2.5rem;
+  }
+
+  .lg\:min-w-fit {
+    min-width: -moz-fit-content;
+    min-width: fit-content;
   }
 
   .lg\:max-w-\[60vw\] {

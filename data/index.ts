@@ -73,7 +73,7 @@ export const navItems = [
     {
       id: 1,
       title: "Custom CRM platform",
-      des: "Custom CRM platform built from scratch",
+      des: "Custom CRM platform built from scratch with tighter integration with their other internal systems.",
       img: "/skl.png",
       iconLists: [ "/next.svg",  "/nestJs.svg", "/ts.svg", "/pg.svg", "/aws.svg"],
       link: "https://cybermindworks.com/portfolio/crm",
@@ -99,8 +99,8 @@ export const navItems = [
     },
     {
       id: 4,
-      title: " Platform",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+      title: "Online Test Platform",
+      des: "End to end test platform which includes MCQ, Coding and Audio/Video Questions",
       img: "/blackbuck2.png",
       iconLists: ["/next.svg",  "/nestJs.svg",  "/ts.svg", "/pg.svg", "/aws.svg"],
       link: "https://taptap.blackbucks.me/",
@@ -177,32 +177,18 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-      className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
-    },
-    {
-      id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
-    },
-    {
-      id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
-    },
-    {
-      id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "Full Stack Developer @CybermindWorks",
+      desc: "Developed and maintained multiple Full stack web applications for multiple clients using latest technologies.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
+    {
+      id: 2,
+      title: "Freelance Developer",
+      desc: "Worked with a team of three in multiple freelance projects",
+      className: "md:col-span-2",
+      thumbnail: "/exp3.svg",
+    }
   ];
   
   export const socialMedia = [
