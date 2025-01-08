@@ -1,7 +1,8 @@
 "use client";
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
-import Lottie from "react-lottie";
+import dynamic from "next/dynamic";
+const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
 import { cn } from "@/lib/utils";
 
@@ -53,25 +54,17 @@ export const BentoGridItem = ({
 
   const [copied, setCopied] = useState(false);
 
-  const defaultOptions = {
-    loop: copied,
-    autoplay: copied,
-    animationData,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
-
   const handleCopy = () => {
-    const text = "rajeshryan.k@gmail.com";
-    navigator.clipboard.writeText(text);
+    navigator.clipboard.writeText("rajeshryan.k@gmail.com");
     setCopied(true);
+    setTimeout(() => {
+      setCopied(false);
+    }, 2000);
   };
-
   return (
     <div
       className={cn(
-        "row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.1] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4",
+        "row-span-1 relative overflow-hidden rounded-3xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4 border border-white/[0.1]",
         className
       )}
       style={{
@@ -157,20 +150,20 @@ export const BentoGridItem = ({
           )}
           {id === 6 && (
             <div className="mt-5 relative">
-              <div
-                className={`absolute -bottom-5 right-0 ${
-                  copied ? "block" : "block"
-                }`}
-              >
-                <Lottie options={defaultOptions} height={200} width={400} />
+              // need to fix
+              <div className={`absolute`}>
+                <Lottie
+                  animationData={animationData}
+                  loop={copied}
+                  autoplay={copied}
+                />
               </div>
-
               <MagicButton
-                title={copied ? "Email is Copied!" : "Copy my email address"}
+                title={copied ? "Email copied!" : "Copy my email"}
                 icon={<IoCopyOutline />}
                 position="left"
+                otherClasses="bg-[#161a31]"
                 handleClick={handleCopy}
-                otherClasses="!bg-[#161A31]"
               />
             </div>
           )}

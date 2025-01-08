@@ -47,7 +47,7 @@ const Approach = () => {
         <Card
           title="Deployment & Launch"
           icon={<AceternityIcon order="Phase 3" />}
-          des="Finally! After completing the development and testing phase, we’ll proceed to deployment and finally launch our exciting new project."
+          des="Finally! After completing the development and testing phase, we’ll proceed to deployment and launch our exciting new project."
         >
           <CanvasRevealEffect
             animationSpeed={3}
