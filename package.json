@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prod:deploy": "next build && aws s3 sync out/ s3://my-portfolio-rajeshwaran && aws cloudfront create-invalidation --distribution-id EUYGPW0X2C203 --paths '/*'"
   },
   "dependencies": {
     "@react-three/drei": "^9.105.4",

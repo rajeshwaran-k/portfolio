@@ -150,7 +150,7 @@ export const BentoGridItem = ({
           )}
           {id === 6 && (
             <div className="mt-5 relative">
-              // need to fix
+              {/* need to fix confetti position*/}
               <div className={`absolute`}>
                 <Lottie
                   animationData={animationData}
