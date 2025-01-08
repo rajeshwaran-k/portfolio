@@ -1,3 +1,5 @@
+import { link } from "fs";
+
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
@@ -59,7 +61,7 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "Do you want to start a project together?",
+      title: "Interested in collaborating or hiring me as a developer?",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -73,7 +75,7 @@ export const navItems = [
     {
       id: 1,
       title: "Custom CRM platform",
-      des: "Custom CRM platform built from scratch with tighter integration with their other internal systems.",
+      des: "Custom CRM platform built from scratch with tighter integration with client's other internal systems.",
       img: "/skl.png",
       iconLists: [ "/next.svg",  "/nestJs.svg", "/ts.svg", "/pg.svg", "/aws.svg"],
       link: "https://cybermindworks.com/portfolio/crm",
@@ -93,7 +95,7 @@ export const navItems = [
       title: "Live Demo Platform",
       des: "A platform built to schedule instant live demo with customers",
       img: "/matchMaking.png",
-      iconLists: [ "/ts.svg", "/pg.svg", "/aws.svg", "/next.svg",  "/nestJs.svg"],
+      iconLists: [ "/ts.svg", "/pg.svg", "/next.svg",  "/nestJs.svg", "/aws.svg", "/hostinger.svg"],
       link: "https://cybermindworks.com/portfolio/demo-portal",
       linkName: "More info"
     },
@@ -177,14 +179,14 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Full Stack Developer @CybermindWorks",
+      title: "Full Stack Web Developer @CybermindWorks",
       desc: "Developed and maintained multiple Full stack web applications for multiple clients using latest technologies.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
     {
       id: 2,
-      title: "Freelance Developer",
+      title: "Freelance Web Developer",
       desc: "Worked with a team of three in multiple freelance projects",
       className: "md:col-span-2",
       thumbnail: "/exp3.svg",
@@ -195,13 +197,17 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link:"https://github.com/rajeshwaran-k"
     },
     {
       id: 2,
-      img: "/twit.svg",
+      img: "/whatsapp.svg",
+      link:"https://wa.me/919361482922"
     },
     {
-      id: 3,
+      id:3,
       img: "/link.svg",
-    },
+      link:"https://www.linkedin.com/in/rajeshwaran-k-b8a4021ba/"
+    }
+
   ];
