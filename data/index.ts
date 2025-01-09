@@ -60,7 +60,7 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "Interested in collaborating or hiring me as a developer?",
+      title: "Interested in hiring me ?",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",

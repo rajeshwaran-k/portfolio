@@ -110,7 +110,7 @@ export const BentoGridItem = ({
           )}
         >
           <div
-            className={`font-sans text-lg lg:text-3xl max-w-96  z-10 font-extralight  text-neutral-600 dark:text-neutral-300`}
+            className={`font-sans text-lg lg:text-3xl max-w-96  z-10   text-neutral-600 dark:text-neutral-300 font-bold`}
           >
             {title}
           </div>
@@ -150,8 +150,7 @@ export const BentoGridItem = ({
           )}
           {id === 6 && (
             <div className="mt-5 relative">
-              {/* need to fix confetti position*/}
-              <div className={`absolute`}>
+              <div className={`absolute -bottom-5 `}>
                 <Lottie
                   animationData={animationData}
                   loop={copied}
